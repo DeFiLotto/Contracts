@@ -21,7 +21,7 @@ contract DeFiLotto is RewardToken {
   uint256 public blockRemainder = 0;
   uint256 public lastBlock = block.number;
   uint256 public currentBlock = block.number;
-  uint8 public ownerReward = 1;
+  uint8 public ownerReward = 0;
   uint256[] public roundBlocks;
   uint64[] public roundHashes;
   uint64[] public roundCounts;
